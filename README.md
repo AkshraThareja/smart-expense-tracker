@@ -30,15 +30,16 @@ This project goes beyond simple expense logging by including analytics, summarie
 ## Project Structure
 
 smart-expense-tracker/
-│
-├── data/
-│   └── expenses.csv (auto-generated)
-├── reports/
-├── main.py
-├── expense_manager.py
-├── insights.py
-├── requirements.txt
-└── README.md
+- data/
+   - expenses.csv (auto generated)
+   - sample.txt
+- reports/
+  - sample.txt
+- expense_manager.py
+- insights.py
+- main.py
+- README.md
+- requirements.txt
 
 ---
 
