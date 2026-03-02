@@ -20,7 +20,7 @@ This project goes beyond simple expense logging by including analytics, summarie
 
 ## Tech Stack
 
-- Python 3.x
+- Python
 - Pandas
 - Matplotlib
 - Git & GitHub (Feature branch workflow)
