@@ -20,3 +20,13 @@ def show_summary():
     plt.xlabel("Category")
     plt.ylabel("Amount")
     plt.show()
+
+def predict_next_month():
+    try:
+        df = pd.read_csv(DATA_FILE)
+    except FileNotFoundError:
+        print("No data available.")
+        return
+
+    monthly_total = df["Amount"].sum()
+    print("\nEstimated spending next month:", round(monthly_total * 1.05, 2))
